@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+node_modules
+*/node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+dist
+client/dist/
+build/
+.vite/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# SQLite Database & Storage Files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.db-wal
+data/*.db-shm
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Editor & OS Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
